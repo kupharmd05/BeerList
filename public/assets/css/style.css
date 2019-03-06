@@ -1,0 +1,16 @@
+body {
+    background-image: url("/public/assets/img/beer_background1.jpg")
+}
+
+.change-devoured {
+    border-radius: 20%;
+}
+
+.delete-devoured {
+    border-radius: 20%;
+}
+
+.submit {
+    border-radius: 20%;
+}
+

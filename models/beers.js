@@ -12,8 +12,15 @@ var beer = {
         });
     },
     update: function(objColVals, condition, cb){
-        orm.update("beers")
+        orm.update("beers", objColVals, condition, function(res){
+            cb(res);
+        });
+    },
+    delete: function(condition,cb){
+        orm.delete("beers", condition, function(res){
+            cb(res);
+        })
     }
-}
+};
 
 module.exports = beer;
