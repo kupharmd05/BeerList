@@ -1,5 +1,13 @@
-body {
-    background-image: url("/public/assets/img/beer_background1.jpg")
+html body {
+    background-image: url("../img/beer_background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+}
+
+li {
+    font-size: 1.5em;
 }
 
 .change-devoured {
